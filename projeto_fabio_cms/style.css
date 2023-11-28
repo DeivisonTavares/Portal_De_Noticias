@@ -38,3 +38,24 @@ body {
     top: 150px;
     right: 185px;
 }
+
+.container_noticia_1{
+    position: absolute;
+    top: 150px;
+    left: 160px;
+    width: 450px;
+
+}
+
+.Texto_1{
+    color: rgb(77, 73, 73);
+}
+
+.Por_quem_foi{
+    color: gray;
+    opacity: 0.9;
+}
+
+.Descricao_Texto_1{
+    color: black;
+}
