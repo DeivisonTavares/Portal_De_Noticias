@@ -1,0 +1,66 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    
+}
+
+.header {
+    background-color: #DB0000;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
+}
+
+.menu_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.title_main {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffff;
+}
+
+.search_icon {
+    width: 50px;
+    height: 50px;
+}
+
+.foto_Dwayne_Johnson{
+    width: 350px;
+    height: 440px;
+    position: absolute;
+    top: 160px;
+    left: 815px;
+}
+
+.container_noticia_1{
+    position: absolute;
+    top: 150px;
+    left: 235px;
+    width: 400px;
+    font-size: large;
+}
+
+.Texto_1{
+    color: rgb(53, 50, 50);
+}
+
+.Por_quem_foi{
+    color: gray;
+    opacity: 0.9;
+}
+
+.Descricao_Texto_1{
+    color: rgb(99, 89, 89);
+}
+
+.centralizar{
+    justify-content: center;
+    position: absolute;
+}
