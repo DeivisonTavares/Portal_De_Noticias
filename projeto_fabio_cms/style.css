@@ -1,23 +1,32 @@
-body{
+body {
+    margin: 0;
     padding: 0;
     display: flex;
+    
 }
-.header{
+
+.header {
     background-color: #DB0000;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    width: 100%;
+    margin: 0 auto;
+    position: absolute;
 }
-.menu_icon{
-    width: 50px;;
+
+.menu_icon {
+    width: 50px;
     height: 50px;
 }
-.title_main{
+
+.title_main {
     font-family: 'Montserrat', sans-serif;
     color: #ffff;
 }
-.search_icon{
+
+.search_icon {
     width: 50px;
     height: 50px;
 }
