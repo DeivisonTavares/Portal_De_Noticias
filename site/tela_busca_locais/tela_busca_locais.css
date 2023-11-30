@@ -55,12 +55,12 @@ body {
     cursor: pointer;
 }
 
-.foto_Dwayne_Johnson {
-    width: 350px;
+.foto_noticia_1 {
+    width: 550px;
     height: 440px;
     position: absolute;
-    top: 160px;
-    left: 815px;
+    top: 190px;
+    left: 720px;
 }
 
 .container_noticia_1 {
