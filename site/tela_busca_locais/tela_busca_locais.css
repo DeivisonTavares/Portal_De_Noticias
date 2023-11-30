@@ -59,8 +59,16 @@ body {
     width: 550px;
     height: 440px;
     position: absolute;
-    top: 190px;
-    left: 665px;
+    top: 40px;
+    left: 565px;
+}
+
+.foto_noticia_2{
+    width: 550px;
+    height: 440px;
+    position: absolute;
+    top: 855px;
+    left: 565px;
 }
 
 .container_noticia_1 {
@@ -71,16 +79,19 @@ body {
     font-size: large;
 }
 
-.Texto_1 {
+.Texto_1,
+.Texto_2 {
     color: rgb(53, 50, 50);
 }
 
-.Por_quem_foi {
+.Por_quem_foi_1,
+.Por_quem_foi_2 {
     color: gray;
     opacity: 0.9;
 }
 
-.Descricao_Texto_1 {
+.Descricao_Texto_1,
+.Descricao_Texto_2 {
     color: rgb(99, 89, 89);
 }
 
