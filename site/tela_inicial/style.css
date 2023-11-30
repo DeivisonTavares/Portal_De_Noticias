@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
-    
+
 }
 
 .header {
@@ -16,7 +16,14 @@ body {
     position: absolute;
 }
 
-.Container_Topicos_de_Navegacao{
+.input-text {
+    padding: 5px;
+    border: 2px solid #000000;
+    bottom: 15px;
+    position: relative;
+}
+
+.Container_Topicos_de_Navegacao {
     background-color: rgb(134, 11, 7);
     display: flex;
     flex-direction: row;
@@ -27,7 +34,7 @@ body {
     position: absolute;
     top: 81px;
     color: white;
-    
+
 }
 
 .menu_icon {
@@ -48,7 +55,7 @@ body {
     cursor: pointer;
 }
 
-.foto_Dwayne_Johnson{
+.foto_Dwayne_Johnson {
     width: 350px;
     height: 440px;
     position: absolute;
@@ -56,7 +63,7 @@ body {
     left: 815px;
 }
 
-.container_noticia_1{
+.container_noticia_1 {
     position: absolute;
     top: 150px;
     left: 235px;
@@ -64,20 +71,20 @@ body {
     font-size: large;
 }
 
-.Texto_1{
+.Texto_1 {
     color: rgb(53, 50, 50);
 }
 
-.Por_quem_foi{
+.Por_quem_foi {
     color: gray;
     opacity: 0.9;
 }
 
-.Descricao_Texto_1{
+.Descricao_Texto_1 {
     color: rgb(99, 89, 89);
 }
 
-.centralizar{
+.centralizar {
     justify-content: center;
     position: absolute;
 }
