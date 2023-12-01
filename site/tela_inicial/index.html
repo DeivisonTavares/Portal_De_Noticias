@@ -1,14 +1,17 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DRAMA</title>
     <link rel="stylesheet" href="/site/tela_inicial/style.css">
+    <link rel="stylesheet" href="/site/tela_inicial/style_carrossel.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header>
         <div class="header">
@@ -19,30 +22,62 @@
                 <img src="/site/img/search-icon.png" class="search_icon" alt="search-icon">
             </div>
         </div>
-        
+
         <div class="Container_Topicos_de_Navegacao">
-            <a onclick="Ir_Tela_Locais()"><div class="Item_1">Notícias Locais</div></a>
+            <a onclick="Ir_Tela_Locais()">
+                <div class="Item_1">Notícias Locais</div>
+            </a>
             <div onclick="Ir_Tela_Internacional()" class="Item_2">Notícias Internacionais</div>
             <div onclick="Ir_Tela_Esporte()" class="Item_3">Notícias Esportes</div>
             <div onclick="Ir_Tela_Musica()" class="Item_4">Notícias Musicas</div>
         </div>
     </header>
-    
+
     <div class="centralizar">
+
+        <div class="containerzao_carrossel">
+
+            <h3 class="header_carrossel">Notícias em destaque:</h3>
+            <div class="container">
+                <button class="arrow-left control" aria-label="Previous image">◀</button>
+                <button class="arrow-right control" aria-label="Next Image">▶</button>
+                <div class="gallery-wrapper">
+                    <div class="gallery">
+                        <img src="https://source.unsplash.com/random/250x250/?beach" alt="Beach Image"
+                        class="item current-item">
+                        <img src="https://source.unsplash.com/random/250x250/?animal" alt="Animal Image"
+                        class="item current-item">
+                        <img src="https://source.unsplash.com/random/250x250/?street" alt="Street Image"
+                        class="item current-item">
+                        <img src="https://source.unsplash.com/random/250x250/?zoo" alt="Zoo Image"
+                        class="item current-item">
+                        <img src="https://source.unsplash.com/random/250x250/?model" alt="Model Image"
+                        class="item current-item">   
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        <br><br><br><br>
 
         <div class="container_noticia_1">
             <h1 class="Texto_1"> URGENTE: The Rock é confundido com Dwayne Johnson. </h1>
-        <div class="Por_quem_foi">Por Paulo Muzy.</div>
+            <div class="Por_quem_foi">Por Paulo Muzy.</div>
             <h3 class="Descricao_Texto_1">
-                No mundo movimentado de Hollywood, onde as estrelas brilham intensamente, até mesmo as figuras mais proeminentes podem se encontrar em meio a situações inusitadas. Dessa vez, foi Dwayne Johnson, mundialmente conhecido como "The Rock", que se viu no centro de uma confusão surpreendente, enfrentando um drama pessoal inesperado. 
+                No mundo movimentado de Hollywood, onde as estrelas brilham intensamente, até mesmo as figuras mais
+                proeminentes podem se encontrar em meio a situações inusitadas. Dessa vez, foi Dwayne Johnson,
+                mundialmente conhecido como "The Rock", que se viu no centro de uma confusão surpreendente, enfrentando
+                um drama pessoal inesperado.
             </h3>
-    </div>
-    
+        </div>
+
         <img class="foto_Dwayne_Johnson" src="/site/img/Dwayne_Johnson.png" alt="Dwayne_Johnson_img">
 
     </div>
 
-    
+
 </body>
+
 </html>
 <script src="../Script/mudar_paginas.js"></script>
+<script src="../Script/carrossel.js"></script>

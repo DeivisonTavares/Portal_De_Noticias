@@ -59,13 +59,13 @@ body {
     width: 360px;
     height: 450px;
     position: absolute;
-    top: 160px;
+    top: 560px;
     left: 720px;
 }
 
 .container_noticia_1 {
     position: absolute;
-    top: 150px;
+    top: 550px;
     left: 235px;
     width: 400px;
     font-size: large;
