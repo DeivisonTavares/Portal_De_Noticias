@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DRAMA</title>
-    <link rel="stylesheet" href="/site/tela_busca_internacional/tela_busca_internacional.css">
+    <link rel="stylesheet" href="/site/tela_internacional/tela_internacional.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
@@ -13,7 +13,7 @@
     <header>
         <div class="header">
             <img src="/site/img/menu_icon-icons.png" class="menu_icon" alt="menu_icon">
-            <h1 class="title_main">DRAMA</h1>
+            <a onclick="Ir_Tela_Inicial()"><h1 class="title_main">DRAMA</h1></a>
             <div>
                 <input type="text" placeholder="Pesquise aqui" class="input-text">
                 <img src="/site/img/search-icon.png" class="search_icon" alt="search-icon">
@@ -21,10 +21,10 @@
         </div>
         
         <div class="Container_Topicos_de_Navegacao">
-            <div class="Item_1">Notícias Locais</div>
-            <div class="Item_2">Notícias Internacionais</div>
-            <div class="Item_3">Notícias Esportes</div>
-            <div class="Item_4">Notícias Musica</div>
+            <div onclick="Ir_Tela_Locais()" class="Item_1">Notícias Locais</div>
+            <div onclick="Ir_Tela_Internacional()" class="Item_2">Notícias Internacionais</div>
+            <div onclick="Ir_Tela_Esporte()" class="Item_3">Notícias Esportes</div>
+            <div onclick="Ir_Tela_Musica()" class="Item_4">Notícias Musicas</div>
         </div>
     </header>
     
@@ -60,3 +60,4 @@
     
 </body>
 </html>
+<script src="../Script/mudar_paginas.js"></script>
