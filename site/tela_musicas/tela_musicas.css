@@ -112,3 +112,57 @@ body {
     cursor: pointer;
 }
 
+.container_comentarios {
+    position: fixed;
+    bottom: 0;
+    left: 90%;
+    transform: translateX(-50%);
+    width: 20%;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+#comentarios_lista div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+#formComentario {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#formComentario label {
+    margin-bottom: 5px;
+}
+
+#formComentario input,
+#formComentario textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#formComentario button {
+    padding: 10px;
+    background-color: #DB0000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+#formComentario button:hover {
+    background-color: #A70000;
+}
+
+.centralizar {
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+    margin-bottom: 80px; 
+}
