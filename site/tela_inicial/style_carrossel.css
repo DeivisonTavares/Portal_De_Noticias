@@ -33,11 +33,6 @@
     border: none;
   }
   
-  .arrow-left:hover,
-  .arrow-right:hover {
-    opacity: 0;
-  }
-  
   .arrow-right {
     right: 0;
     left: auto;
@@ -63,14 +58,14 @@
     opacity: 1;
   }
   
-  /* Hide scrollbar for Chrome, Safari and Opera */
+  /* esconde a barra de scroll do Chrome, Safari e Opera */
   .gallery-wrapper::-webkit-scrollbar {
     display: none;
   }
   
-  /* Hide scrollbar for IE, Edge and Firefox */
+  /* esconde a barra de scroll do IE, Edge e Firefox */
   .gallery-wrapper {
-    -ms-overflow-style: none; /* IE and Edge */
+    -ms-overflow-style: none; /* IE e Edge */
     scrollbar-width: none; /* Firefox */
   }
   

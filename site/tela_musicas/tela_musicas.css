@@ -67,7 +67,7 @@ body {
     width: 615px;
     height: 430px;
     position: absolute;
-    top: 670px;
+    top: 720px;
     left: 560px;
 }
 
@@ -104,5 +104,10 @@ body {
 .Item_2,
 .Item_3,
 .Item_4 {
+    cursor: pointer;
+}
+
+.ler_mais{
+    color: blue;
     cursor: pointer;
 }
