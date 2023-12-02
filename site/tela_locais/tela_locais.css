@@ -106,3 +106,53 @@ body {
 .Item_4 {
     cursor: pointer;
 }
+
+
+.container_comentarios {
+    margin-top: 20px;
+    position: absolute;
+    top: 81px;
+    right: 20px; 
+    text-align: left;
+}
+
+#comentarios_lista {
+    margin-top: 10px;
+}
+
+#comentarios_lista div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f9f9f9;
+}
+
+#formComentario {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+}
+
+#formComentario label {
+    margin-bottom: 5px;
+}
+
+#formComentario input,
+#formComentario textarea {
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+}
+
+#formComentario button {
+    padding: 10px;
+    background-color: #DB0000;
+    color: #fff;
+    cursor: pointer;
+    border: none;
+}
+
+#formComentario button:hover {
+    background-color: #A70000;
+}
