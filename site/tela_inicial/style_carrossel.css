@@ -33,10 +33,7 @@
     border: none;
   }
   
-  .arrow-left:hover,
-  .arrow-right:hover {
-    opacity: 0;
-  }
+  
   
   .arrow-right {
     right: 0;
