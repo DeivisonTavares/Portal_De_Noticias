@@ -42,3 +42,7 @@ Frontend:
 
 Backend:
 -interações dinâmicas com JavaScript (carregamento denotícias, comentários dos usuários).
+
+# Detalhes do desenvolvimento do projeto
+
+-Deivison: Tive dificuldade para fazer o carrossel de noticias mas consegui fazer tendo como base um video no youtube.
