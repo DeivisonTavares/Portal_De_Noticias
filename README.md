@@ -48,3 +48,5 @@ Backend:
 -Deivison: Tive dificuldade para fazer o carrossel de noticias mas consegui fazer tendo como base um video no youtube.
 
 -Luiza: Uma das dificuldades foi fazer a censura de palavras, por que como tem várias, acaba sendo mais complicado listar, mas no final foi resolvido.
+
+-Diogo: A minha principal dificuldade foi tornar o site responsivo na tela, pois o conteudo não ficava do jeito que eu imaginei no inicio, porem  pesquisando mais sobre o flexbox tricks do css ajudou no desenvolvimento do projeto
