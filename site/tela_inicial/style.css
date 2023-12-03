@@ -2,25 +2,27 @@ body {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-direction: column;
+}
 
+header {
+    background-color: #DB0000;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
 }
 
 .header {
-    background-color: #DB0000;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    position: absolute;
-}
-
-.input-text {
-    padding: 5px;
-    border: 2px solid #000000;
-    bottom: 15px;
-    position: relative;
 }
 
 .Container_Topicos_de_Navegacao {
@@ -31,10 +33,7 @@ body {
     align-items: center;
     width: 100%;
     margin: 0 auto;
-    position: absolute;
-    top: 81px;
     color: white;
-
 }
 
 .menu_icon {
@@ -47,6 +46,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: #ffff;
     cursor: pointer;
+    margin: 10px 0;
 }
 
 .search_icon {
@@ -55,63 +55,71 @@ body {
     cursor: pointer;
 }
 
-.foto_Dwayne_Johnson {
-    width: 360px;
-    height: 450px;
-    position: absolute;
-    top: 10px;
-    left: 520px;
+.container_noticia_1,
+.container_noticia_2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;  
+    align-items: center;
+    width: 45%;
+    margin: 10px;
 }
 
-.foto_noticia_2{
-    width: 550px;
-    height: 440px;
-    position: absolute;
-    top: 555px;
-    left: 465px;
+.centralizar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    min-height: 100vh; 
 }
 
-.container_noticia_1 {
-    position: absolute;
-    top: 550px;
-    left: 235px;
-    width: 400px;
-    font-size: large;
+.descricao_imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+    width: 100%;
+}
+
+.foto_Dwayne_Johnson,
+.foto_noticia_2 {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
 }
 
 .Texto_1,
 .Texto_2 {
     color: rgb(53, 50, 50);
+    font-size: 24px;
+    margin-bottom: 10px;
 }
 
 .Por_quem_foi_1,
 .Por_quem_foi_2 {
     color: gray;
     opacity: 0.9;
+    margin-bottom: 10px;
 }
 
 .Descricao_Texto_1,
 .Descricao_Texto_2 {
     color: rgb(99, 89, 89);
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: left;
 }
 
-.centralizar {
-    justify-content: center;
-    position: absolute;
-}
-
-.Item_1,
-.Item_2,
-.Item_3,
-.Item_4 {
-    cursor: pointer;
+.Descricao_Texto_1 {
+    margin-right: 20px; 
 }
 
 .container_comentarios {
     position: fixed;
     bottom: 0;
-    left: 90%;
-    transform: translateX(-50%);
+    right: 10px; 
     width: 20%;
     background-color: #f9f9f9;
     padding: 10px;
@@ -153,11 +161,4 @@ body {
 
 #formComentario button:hover {
     background-color: #A70000;
-}
-
-.centralizar {
-    justify-content: center;
-    position: absolute;
-    width: 100%;
-    margin-bottom: 80px; 
 }

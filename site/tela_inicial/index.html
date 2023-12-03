@@ -34,9 +34,7 @@
     </header>
 
     <div class="centralizar">
-
         <div class="containerzao_carrossel">
-
             <h3 class="header_carrossel">Notícias em destaque:</h3>
             <div class="container">
                 <button class="arrow-left control" aria-label="Previous image">◀</button>
@@ -56,24 +54,25 @@
                     </div>
                 </div>
             </div>
-            
-        </div>
-        <br><br><br><br>
-
         <div class="container_noticia_1">
-            <h1 class="Texto_1"> URGENTE: The Rock é confundido com Dwayne Johnson. </h1>
-            <div class="Por_quem_foi_1">Por Paulo Muzy.</div>
-            <h3 class="Descricao_Texto_1">
-                No mundo movimentado de Hollywood, onde as estrelas brilham intensamente, até mesmo as figuras mais
-                proeminentes podem se encontrar em meio a situações inusitadas. Dessa vez, foi Dwayne Johnson,
-                mundialmente conhecido como "The Rock", que se viu no centro de uma confusão surpreendente, enfrentando
-                um drama pessoal inesperado.
-                <br><br><br><br>
-            </h3>
-
-            <div class="container_noticia_2">
-                <h1 class="Texto_2">  LeBron James Faz História Fora das Quadras: Novo Empreendimento Promete Impactar a Educação. </h1>
-            <div class="Por_quem_foi_2">Por Caetano Veloso.</div>
+            <div class="descricao_imagem">
+                <h1 class="Texto_1"> URGENTE: The Rock é confundido com Dwayne Johnson. </h1>
+                <div class="Por_quem_foi_1">Por Paulo Muzy.</div>
+                <h3 class="Descricao_Texto_1">
+                    No mundo movimentado de Hollywood, onde as estrelas brilham intensamente, até mesmo as figuras mais
+                    proeminentes podem se encontrar em meio a situações inusitadas. Dessa vez, foi Dwayne Johnson,
+                    mundialmente conhecido como "The Rock", que se viu no centro de uma confusão surpreendente, enfrentando
+                    um drama pessoal inesperado.
+                    <br><br><br><br>
+                </h3>
+            </div>
+            <img class="foto_Dwayne_Johnson" src="/site/img/Dwayne_Johnson.png" alt="Dwayne_Johnson_img">
+        </div>
+    
+        <div class="container_noticia_2">
+            <div class="descricao_imagem">
+                <h1 class="Texto_2"> LeBron James Faz História Fora das Quadras: Novo Empreendimento Promete Impactar a Educação. </h1>
+                <div class="Por_quem_foi_2">Por Caetano Veloso.</div>
                 <h3 class="Descricao_Texto_2">
                     Neste domingo, LeBron James, astro do basquete e ícone global, surpreendeu seus fãs ao anunciar um novo empreendimento que promete transformar a educação. O atleta, conhecido por suas conquistas nas quadras, revelou sua mais recente iniciativa social, a "LeBron James Foundation for Education Equality".<br><br>
                     O projeto visa criar oportunidades educacionais equitativas para crianças em comunidades carentes, oferecendo bolsas de estudo, programas de tutoria e acesso a recursos educacionais de qualidade. LeBron, que sempre destacou a importância da educação em sua própria jornada, expressou seu compromisso em contribuir para um futuro mais brilhante para as gerações vindouras.<br><br>
@@ -81,21 +80,19 @@
                     A notícia rapidamente reverberou nas redes sociais, com admiradores e colegas atletas elogiando a iniciativa do jogador. Este novo capítulo na carreira de LeBron James ressalta seu papel como um agente de mudanças positivas, estendendo sua influência além do basquete para causas sociais significativas.
                     <br><br><br><br>                   
                 </h3>
+            </div>
+            <img class="foto_noticia_2" src="/site/img/lebron.jpg" alt="foto_noticia_2">
         </div>
-
-        <img class="foto_Dwayne_Johnson" src="/site/img/Dwayne_Johnson.png" alt="Dwayne_Johnson_img">
-        <img class="foto_noticia_2" src="/site/img/lebron.jpg" alt="foto_noticia_2">
-
     </div>
-
+    
 
     <div class="container_comentarios">
         <h2>Comentários</h2>
-    <div id="comentarios_lista"></div>
+        <div id="comentarios_lista"></div>
         <h3>Adicione um Comentário</h3>
         <form id="formComentario">
             <label for="nome">Nome:</label>
-            <input type="text" id="nome" required>
+            <input type="text" id="nome">
 
             <label for="comentario">Comentário:</label>
             <textarea id="comentario" required></textarea>
@@ -104,10 +101,8 @@
         </form>
     </div>
 
-
-
+    <script src="../Script/mudar_paginas.js"></script>
+    <script src="../Script/carrossel.js"></script>
 </body>
 
 </html>
-<script src="../Script/mudar_paginas.js"></script>
-<script src="../Script/carrossel.js"></script>
