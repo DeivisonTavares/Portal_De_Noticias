@@ -2,7 +2,7 @@
 
 # Feitor por:
 -Diogo Siqueira.
--Ana Luisa Souto.
+-Ana Luiza Souto.
 -Deivison Tavares.
 -joão david.
 
@@ -46,3 +46,4 @@ Backend:
 # Detalhes do desenvolvimento do projeto
 
 -Deivison: Tive dificuldade para fazer o carrossel de noticias mas consegui fazer tendo como base um video no youtube.
+-Luiza: Uma das dificuldades foi fazer a censura de palavras, por que como tem várias, acaba sendo mais complicado listar, mas no final foi resolvido.
