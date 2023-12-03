@@ -4,13 +4,13 @@ const items = document.querySelectorAll(".item");
 const maxItems = items.length;
 
 function updateCurrentItem(index) {
- items.forEach((item) => item.classList.remove("current-item"));
- items[index].scrollIntoView({ behavior: "smooth", inline: "center" });
- items[index].classList.add("current-item");
+  items.forEach((item) => item.classList.remove("current-item"));
+  items[index].scrollIntoView({ behavior: "smooth", inline: "center" });
+  items[index].classList.add("current-item");
 }
 
 controls.forEach((control) => {
- control.addEventListener("click", (e) => {
+  control.addEventListener("click", (e) => {
     const isLeft = e.target.classList.contains("arrow-left");
     currentItem = isLeft ? currentItem - 1 : currentItem + 1;
 
@@ -21,42 +21,48 @@ controls.forEach((control) => {
     }
 
     updateCurrentItem(currentItem);
- });
+  });
 });
 
 let comentarios = [];
+const palavrasInadequadas = ["merda", "puta", "cu", "pqp", "bosta"]; 
 
 function adicionarComentario() {
-    const nomeInput = document.getElementById('nome');
-    const comentarioInput = document.getElementById('comentario');
+  const nomeInput = document.getElementById('nome');
+  const comentarioInput = document.getElementById('comentario');
 
-    const nome = nomeInput.value;
-    const comentario = comentarioInput.value;
+  const nome = nomeInput.value;
+  let comentario = comentarioInput.value;
 
-    if (nome && comentario) {
-        const novoComentario = {
-            nome: nome,
-            comentario: comentario
-        };
+  palavrasInadequadas.forEach((palavra) => {
+    const regex = new RegExp(`\\b${palavra}\\b`, 'gi');
+    comentario = comentario.replace(regex, '***');
+  });
 
-        comentarios.push(novoComentario);
+  if (nome && comentario) {
+    const novoComentario = {
+      nome: nome,
+      comentario: comentario
+    };
 
-        nomeInput.value = '';
-        comentarioInput.value = '';
+    comentarios.push(novoComentario);
 
-        exibirComentarios();
-    } else {
-        alert('Por favor, preencha todos os campos.');
-    }
+    nomeInput.value = '';
+    comentarioInput.value = '';
+
+    exibirComentarios();
+  } else {
+    alert('Por favor, preencha todos os campos.');
+  }
 }
 
 function exibirComentarios() {
-    const comentariosLista = document.getElementById('comentarios_lista');
-    comentariosLista.innerHTML = '';
+  const comentariosLista = document.getElementById('comentarios_lista');
+  comentariosLista.innerHTML = '';
 
-    comentarios.forEach((comentario) => {
-        const comentarioElemento = document.createElement('div');
-        comentarioElemento.innerHTML = `<strong>${comentario.nome}:</strong> ${comentario.comentario}`;
-        comentariosLista.appendChild(comentarioElemento);
-    });
+  comentarios.forEach((comentario) => {
+    const comentarioElemento = document.createElement('div');
+    comentarioElemento.innerHTML = `<strong>${comentario.nome}:</strong> ${comentario.comentario}`;
+    comentariosLista.appendChild(comentarioElemento);
+  });
 }
